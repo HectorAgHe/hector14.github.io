@@ -17,7 +17,7 @@
     --off-white: #FAF8f7;
     --just-white: #fff;
 }
-{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
@@ -51,4 +51,17 @@ header img{
     margin-top: 40px;
     text-align: center;
     align-self: center;
+}
+.header--title-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.header--title-container p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
 }
